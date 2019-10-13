@@ -13,3 +13,15 @@ yum install -y httpd
 systemctl start httpd.service
 systemctl enable httpd.service
 echo "Hello World from $(hostname -f)" > /var/www/html/index.html
+
+ 7  lsblk
+    8  lsblk
+    9  sudo file -s /dev/xvdf
+   10  sudo mkfs -t xfs /dev/xvdf
+   11  sudo mkdir /data
+   12  sudo mount /dev/xvdf /data
+   13  lsblk
+   14  cd /data
+   15  nano hello.txt
+   16  ls
+   17  history

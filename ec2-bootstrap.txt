@@ -25,3 +25,5 @@ echo "Hello World from $(hostname -f)" > /var/www/html/index.html
    15  nano hello.txt
    16  ls
    17  history
+
+   https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
